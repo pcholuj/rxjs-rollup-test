@@ -1,4 +1,5 @@
 import { Observable } from 'rxjs/Observable'
+import { Subject } from 'rxjs/Subject'
 
 const test = Observable.create((observer) => {
 	observer.next('first');
@@ -14,3 +15,4 @@ test.subscribe((next) => {
 	console.log('complete', complete);
 })
 
+console.log(Subject);
