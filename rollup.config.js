@@ -39,7 +39,7 @@ export default [{
 	],
 }, {
 	entry: 'main.js',
-	dest: 'bundle.js.gz',
+	dest: 'bundle.js',
 	plugins: [
 		resolve({
 			jsnext: true,
